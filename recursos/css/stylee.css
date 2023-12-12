@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container_a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 80px;
+}
+
+.imagess {
+    position: relative;
+    margin: 60px;
+}
+
+.myImage {
+    height: 300px;
+    width: 250px;
+}
+
+.image-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
